@@ -8,6 +8,13 @@ class Api::V1::SubscriptionsController < ApplicationController
     end
   end
 
+  def update 
+    subscription = Subscription.find(params[:id])
+    if subscription.update(sub_params)
+      render json: { 'data': { 'success': 'Your subscriptions have been updated!' } }
+    end
+  end
+
   private 
   def sub_params
     params.permit(
