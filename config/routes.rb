@@ -2,11 +2,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
    namespace :api do
     namespace :v1 do
-      resources :subscriptions, only: [:create, :index]
-      # resources :customers, only: :create
-      resources :customers do 
-        resources :subscriptions, only: [:create, :update]
-      end
+      resources :subscriptions, only: [:create, :index, :update] 
     end
   end
 end

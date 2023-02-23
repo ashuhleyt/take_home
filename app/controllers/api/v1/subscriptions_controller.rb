@@ -4,8 +4,14 @@ class Api::V1::SubscriptionsController < ApplicationController
 
     subscription.status = 'active'
     if subscription.save
-      # require 'pry'; binding.pry
       render json: SubscriptionSerializer.new_subscription(subscription)
+    end
+  end
+
+  def update 
+    subscription = Subscription.find(params[:id])
+    if subscription.update(sub_params)
+      render json: { 'data': { 'success': 'Your subscriptions have been updated!' } }
     end
   end
 
