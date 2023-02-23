@@ -1,10 +1,8 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ashleyturner/turing/4mod/projects/take_home/app/models/subscription.rb": {
+      "/Users/ashleyturner/turing/4mod/projects/take_home/app/models/customer.rb": {
         "lines": [
-          1,
-          1,
           1,
           1,
           1,
@@ -23,8 +21,10 @@
           null
         ]
       },
-      "/Users/ashleyturner/turing/4mod/projects/take_home/app/models/tea.rb": {
+      "/Users/ashleyturner/turing/4mod/projects/take_home/app/models/subscription.rb": {
         "lines": [
+          1,
+          1,
           1,
           1,
           1,
@@ -36,7 +36,7 @@
           null
         ]
       },
-      "/Users/ashleyturner/turing/4mod/projects/take_home/app/models/customer.rb": {
+      "/Users/ashleyturner/turing/4mod/projects/take_home/app/models/tea.rb": {
         "lines": [
           1,
           1,
@@ -53,11 +53,11 @@
         "lines": [
           1,
           1,
-          0,
+          1,
           null,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
           null,
           null,
           null,
@@ -67,12 +67,19 @@
           1,
  main
           1,
+          0,
           null,
           null,
           null,
           1,
           1,
           1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          2,
           null,
           null,
           null,
@@ -90,33 +97,54 @@
           null
         ]
       },
-      "/Users/ashleyturner/turing/4mod/projects/take_home/app/mailers/application_mailer.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/ashleyturner/turing/4mod/projects/take_home/app/serializers/subscription_serializer.rb": {
         "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/4mod/projects/take_home/app/mailers/application_mailer.rb": {
+        "lines": [
           0,
           0,
           0,
@@ -154,7 +182,6 @@
         }
       }
     },
-    "timestamp": 1677179887
- main
+
   }
 }
