@@ -33,8 +33,6 @@
           null,
           1,
           1,
-          null,
-          1,
           null
         ]
       },
@@ -51,6 +49,62 @@
           null
         ]
       },
+      "/Users/ashleyturner/turing/4mod/projects/take_home/app/controllers/api/v1/subscriptions_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/4mod/projects/take_home/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/4mod/projects/take_home/app/serializers/subscription_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/ashleyturner/turing/4mod/projects/take_home/app/mailers/application_mailer.rb": {
         "lines": [
           0,
@@ -62,14 +116,6 @@
         }
       },
       "/Users/ashleyturner/turing/4mod/projects/take_home/app/jobs/application_job.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/ashleyturner/turing/4mod/projects/take_home/app/controllers/application_controller.rb": {
         "lines": [
           0,
           0
@@ -98,6 +144,6 @@
         }
       }
     },
-    "timestamp": 1677096567
+    "timestamp": 1677173668
   }
 }
