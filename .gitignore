@@ -21,3 +21,9 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+coverage
+
+app/channels/application_cable/channel.rb
+app/channels/application_cable/connection.rb
+app/jobs/application_job.rb
+app/mailers/application_mailer.rb

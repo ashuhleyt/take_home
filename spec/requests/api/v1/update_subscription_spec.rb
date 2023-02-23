@@ -6,18 +6,17 @@ RSpec.describe 'Update Subscriptions' do
   describe 'successfully cancelling a subscription' do 
     it 'cancel a customers tea subscription' do 
       customer = Customer.first 
-
-      expect(customer.subscriptions.first.status).to eq('active')
-
+      
+      expect(customer.subscriptions.count).to eq(1)
       sub_params = {
         'id': subscription.id,
-        'customer_id': subscription.customer.id,
         'tea_id': subscription.tea.id,
         'title': subscription.tea.title,
         'price': subscription.price,
         'frequency': subscription.frequency,
         'status': 'cancelled'
       }
+    
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
@@ -30,7 +29,6 @@ RSpec.describe 'Update Subscriptions' do
       expect(data[:data][:success]).to eq('Your subscriptions have been updated!')
       expect(customer.subscriptions.first.status).to eq('cancelled')
       expect(customer.subscriptions.count).to eq(1)
-      require 'pry'; binding.pry
     end
   end
 end
