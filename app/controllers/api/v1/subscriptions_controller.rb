@@ -4,7 +4,6 @@ class Api::V1::SubscriptionsController < ApplicationController
 
     subscription.status = 'active'
     if subscription.save
-      # require 'pry'; binding.pry
       render json: SubscriptionSerializer.new_subscription(subscription)
     end
   end

@@ -23,41 +23,41 @@ end
 end
 
 #1
-# Subscription.create!(
-#   title: Tea.first.title,
-#   price: Faker::Number.between(from: 500, to: 100),
-#   status: 0,
-#   frequency: [7, 14, 21, 30, 60].sample,
-#   tea_id: Tea.first.id,
-#   customer_id: Customer.first.id
-# )
+Subscription.create!(
+  title: Tea.first.title,
+  price: Faker::Number.between(from: 500, to: 100),
+  status: 0,
+  frequency: [7, 14, 21, 30, 60].sample,
+  tea_id: Tea.first.id,
+  customer_id: Customer.first.id
+)
 
 # #2
-# Subscription.create!(
-#   title: Tea.second.title,
-#   price: Faker::Number.between(from: 500, to: 100),
-#   status: 0,
-#   frequency: [7, 14, 21, 30, 60].sample,
-#   tea_id: Tea.first.id,
-#   customer_id: Customer.second.id
-# )
+Subscription.create!(
+  title: Tea.second.title,
+  price: Faker::Number.between(from: 500, to: 100),
+  status: 0,
+  frequency: [7, 14, 21, 30, 60].sample,
+  tea_id: Tea.first.id,
+  customer_id: Customer.second.id
+)
 
 # #3
-# Subscription.create!(
-#   title: Tea.third.title,
-#   price: Faker::Number.between(from: 500, to: 100),
-#   status: 0,
-#   frequency: [7, 14, 21, 30, 60].sample,
-#   tea_id: Tea.second.id,
-#   customer_id: Customer.first.id
-# )
+Subscription.create!(
+  title: Tea.third.title,
+  price: Faker::Number.between(from: 500, to: 100),
+  status: 0,
+  frequency: [7, 14, 21, 30, 60].sample,
+  tea_id: Tea.second.id,
+  customer_id: Customer.first.id
+)
 
 # #4
-# Subscription.create!(
-#   title: Tea.second.title,
-#   price: Faker::Number.between(from: 500, to: 100),
-#   status: 0,
-#   frequency: [7, 14, 21, 30, 60].sample,
-#   tea_id: Tea.second.id,
-#   customer_id: Customer.third.id
-# )
+Subscription.create!(
+  title: Tea.second.title,
+  price: Faker::Number.between(from: 500, to: 100),
+  status: 0,
+  frequency: [7, 14, 21, 30, 60].sample,
+  tea_id: Tea.second.id,
+  customer_id: Customer.third.id
+)
