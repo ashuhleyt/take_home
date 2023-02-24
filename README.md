@@ -5,7 +5,7 @@
 - Ruby 2.7.4
 <br>
 Clone this repository to your local machine.
-In the parent directory, run the following commands: <br>
+In the root directory, run the following commands: <br>
 
 ``` bundle install ``` <br>
 
